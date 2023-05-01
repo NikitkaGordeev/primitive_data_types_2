@@ -3,7 +3,9 @@ public class Main {
         int depositIn = 100;// начальный депозит
         int amount = 100; // сумма пополнения
         int bonus;
-        if(amount > 1000){ bonus = amount / 100;}else{
+        if (amount > 1000) {
+            bonus = amount / 100;
+        } else {
             bonus = 0;
         }
         int balance = depositIn + amount + bonus;
